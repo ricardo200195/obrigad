@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,6 +15,10 @@
         <div id="balloon-container"></div>
     </div>
     <script src="scripts.js"></script>
-<button type="button"  class="ticto-upsell-button" data-offer-code="O086088FB">COMPRAR AGORA</button>
-</body>
+<button type="button" class="ticto-upsell-button" id="buy-button">COMPRAR AGORA</button>
+
+<script>
+    const offerCode = "O086088FB";
+    document.getElementById("buy-button").dataset.offerCode = offerCode;
+</script></body>
 </html>
